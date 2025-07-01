@@ -5,6 +5,11 @@
 int main(){
 srand((unsigned int)time(NULL));
 
+char c[10];
+printf("What is your name?\n");
+scanf("%s",&c);
+printf("Hello, %s!\n",c);
+
 int num1=rand()%6+1;
 int num2=rand()%6+1;
 int total=num1+num2;
